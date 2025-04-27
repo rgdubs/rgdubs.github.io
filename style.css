@@ -1,37 +1,29 @@
-/* --- Basic Reset & Body --- */
 body {
-    font-family: "Times New Roman", Times, serif; /* Classic Serif */
-    /* Or try: font-family: "Courier New", Courier, monospace; for a terminal feel */
-    /* Or try: font-family: Arial, Helvetica, sans-serif; for a basic sans-serif */
+    font-family: "Courier New", Courier, monos
 
-    background-color: #cccccc; /* Old school grey background */
-    /* Or: background-color: #ffffff; for plain white */
-    color: #000000; /* Black text */
+    background-color: #cccccc; 
+    color: #000000; 
     margin: 0;
     padding: 0;
 }
 
-/* --- Centered Container --- */
 .container {
-    max-width: 800px; /* Limit width like older sites */
-    margin: 20px auto; /* Center the block with margin top/bottom */
+    max-width: 800px; 
+    margin: 20px auto;
     padding: 15px 25px;
-    background-color: #f0f0f0; /* Slightly off-white for the content area */
-    /* Or: background-color: #ffffff; */
-    border: 1px solid #666666; /* Simple border */
+    background-color: #f0f0f0;
+    border: 1px solid #666666; 
 
-    /* Optional: Add a subtle shadow to lift it off the grey bg */
-    /* box-shadow: 5px 5px 5px #aaaaaa; */
+    box-shadow: 5px 5px 5px #aaaaaa;
 }
 
-/* --- Header --- */
 .header {
     text-align: center;
     margin-bottom: 15px;
 }
 .header h1 {
     margin-bottom: 5px;
-    font-size: 2em; /* Make title bigger */
+    font-size: 2em;
 }
 .header p {
     margin-top: 0;
@@ -40,99 +32,84 @@ body {
 }
 
 
-/* --- Content Area --- */
 .content h2 {
     font-size: 1.4em;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
-    border-bottom: 1px solid #999999; /* Underline headings */
+    border-bottom: 1px solid #999999; 
     padding-bottom: 3px;
 }
-.content h2 a { /* Make heading links less distracting */
+.content h2 a { 
     text-decoration: none;
-    color: inherit; /* Use the heading color */
+    color: inherit; 
 }
 .content h2 a:hover {
     text-decoration: underline;
-    color: #0000FF; /* Standard blue on hover */
+    color: #0000FF; 
 }
 
 
 p {
-    line-height: 1.5; /* Slightly more spacing for readability */
+    line-height: 1.5; 
     margin-bottom: 1em;
 }
 
-/* --- Links --- */
 a {
-    color: #0000FF; /* Standard blue */
-    text-decoration: underline; /* Always underline */
+    color: #0000FF;
+    text-decoration: underline; 
 }
 
 a:visited {
-    color: #800080; /* Standard purple */
+    color: #800080; 
 }
 
 a:hover {
-    /* Optional: remove underline on hover? */
-    /* text-decoration: none; */
-    color: #FF0000; /* Red on hover? */
+    color: #FF0000; 
 }
 
-/* --- Lists --- */
 ul, ol {
-    margin-left: 20px; /* Keep default indentation */
+    margin-left: 20px; 
     padding-left: 20px;
 }
 li {
-    margin-bottom: 0.5em; /* Space out list items */
+    margin-bottom: 0.5em; 
 }
 
-/* --- Horizontal Rule --- */
 hr {
     border: 0;
     height: 1px;
-    background-color: #666666; /* Make it a solid line */
-    margin: 25px 0; /* Add spacing */
+    background-color: #666666; 
+    margin: 25px 0;
 }
 
-/* --- Preformatted Text (for directory listing) --- */
 pre {
-    font-family: "Courier New", Courier, monospace; /* Essential for alignment */
-    background-color: #ffffff; /* White background often used */
-    border: 1px dashed #999999; /* Dashed border common */
+    font-family: "Courier New", Courier, monospace; 
+    background-color: #ffffff;
+    border: 1px dashed #999999; 
     padding: 10px;
-    overflow-x: auto; /* Add scrollbar if content is too wide */
-    line-height: 1.2; /* Tighten line spacing slightly */
-    font-size: 0.9em; /* Make text slightly smaller */
-    white-space: pre; /* Preserve whitespace strictly */
-}
-pre a {
-    /* Make links in pre look like plain text until hovered? */
-    /* color: inherit; */
-    /* text-decoration: none; */
-}
-pre a:hover {
-    /* background-color: #eeeeee; */ /* Highlight on hover? */
+    overflow-x: auto;
+    line-height: 1.2; 
+    font-size: 0.9em;
+    white-space: pre;
 }
 
 
-/* --- Footer --- */
+
+
 .footer {
     text-align: center;
     margin-top: 20px;
     padding-top: 10px;
     border-top: 1px solid #999999;
-    font-size: 0.8em; /* Smaller text */
-    color: #333333; /* Dark grey */
+    font-size: 0.8em; 
+    color: #333333;
 }
 
 .job h3 {
-    border-bottom: 1px dotted #666666; /* 1px thick, dotted line, dark grey */
-    padding-bottom: 5px;           /* Add some space between the text and the line */
-    margin-bottom: 0.7em;          /* Adjust space below the dotted line before the job title */
+    border-bottom: 1px dotted #666666;
+    padding-bottom: 5px;          
+    margin-bottom: 0.7em;          
 
-    /* Optional: Ensure no other borders interfere if h3 had default styles */
     border-top: none;
     border-left: none;
     border-right: none;
